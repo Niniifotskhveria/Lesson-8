@@ -78,12 +78,89 @@ a{
 }
 .text3{
     position: absolute;
-    top: 0;
+    top: 30px;
     left:50%;
     transform: translate(-50%,-50%);
+    font-size: 35px;
 }
 .container2{
     width: 100%;
     height: 965px;
+    
+}
+.description{
     position: relative;
-    font-size: 35px;
+    height: 121px;
+}
+.prgph1{
+    position: absolute;
+    top: 100px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 16px;
+    width: 771px;
+    height: 71px;
+    font: 16px;
+}
+.box2{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: #325DFF;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+}
+.wraper2{
+   display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    width:371px;
+    height: 374px;
+    margin: 62px  0 25px 55px;
+}
+.wraper3{
+    display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    width:371px;
+    height: 374px;
+    margin: 62px  0 25px 55px;
+}
+.wraper4{
+    display: inline-block;
+    justify-content: space-between;
+    position: relative;
+    width:371px;
+    height: 374px;
+    margin: 62px  0 25px 55px;
+}
+}
+}
+.peace{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.lorem{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 251px;
+    height: 106px;
+    text-indent: 15px;
+}
