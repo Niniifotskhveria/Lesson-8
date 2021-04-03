@@ -1,5 +1,6 @@
 .container{
     background-image: url(../image/image1.jpg);
+    max-width: 1380px;
     width: 100%;
     height: 900px;
     background-repeat: no-repeat;
@@ -14,6 +15,8 @@
 }
 .div1{
     display: flex;
+    max-width: 1380px;
+    width: 100%;
 }
 .navigation{
     margin:70px 142px 813px 0; 
@@ -43,8 +46,12 @@ a{
 }
 .wraper{
     display: flex;
+    max-width: 1280px;
+    width: 100%;
+    flex-wrap: wrap;
 }
 .container1{
+    max-width: 1280px;
     width: 100%;
     height: 900px;
     position: relative;
@@ -119,6 +126,7 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 32px;
+    
 }
 .wraper2{
    display: inline-block;
@@ -127,14 +135,17 @@ a{
     width:371px;
     height: 374px;
     margin: 62px  0 25px 55px;
+    background-color: white;
 }
 .wraper3{
     display: inline-block;
     justify-content: space-between;
     position: relative;
-    width:371px;
+    max-width:371px;
+    width: 100%;
     height: 374px;
     margin: 62px  0 25px 55px;
+    background-color: white;
 }
 .wraper4{
     display: inline-block;
@@ -143,13 +154,13 @@ a{
     width:371px;
     height: 374px;
     margin: 62px  0 25px 55px;
+    background-color: white;
 }
-}
-}
+
 .peace{
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 15%;
+    left: 35%;
     transform: translate(-50%, -50%);
     font-size: 18px;
     margin-top: 40px;
@@ -157,10 +168,38 @@ a{
 }
 .lorem{
     position: absolute;
-    top: 40%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 251px;
     height: 106px;
     text-indent: 15px;
+}
+
+.section{
+    background-color: #FAFAFA;
+    
+}
+.box4{
+    position: relative;
+    margin: 67px 59px 44px 61px;
+    width: 251px;
+    height: 263px;
+    flex-wrap: wrap;
+}
+.burger{
+    
+    width: 35px;
+    margin:70px 10px 813px 0;
+    display: none;
+}
+.left-block{
+    max-width: 640px;
+    width: 100%;
+}
+.right-block {
+    max-width: 640px;
+    width: 100%;
+    height: 601px;
+    flex-wrap: wrap;
 }
